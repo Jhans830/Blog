@@ -47,17 +47,17 @@ module.exports = {
        },
      },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `InvokeCreateDotDev`,
-        short_name: `InvokeCreate`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#fff`,
-        display: `standalone`,
-        icon: `src/assets/favicon.png`,
-      },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Novela by Narative`,
+      short_name: `Novela`,
+      start_url: `/`,
+      background_color: `#fff`,
+      theme_color: `#fff`,
+      display: `standalone`,
+      icon: `src/assets/favicon.png`,
     },
+  },
   ],
 };
