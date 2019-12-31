@@ -3,9 +3,9 @@ module.exports = {
     title: `Novela by Narative`,
     name: `Narative`,
     siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `A blog highlighting all things Salesforce Marketing Cloud`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: '',
       maxWidth: 652,
     },
     social: [
@@ -33,17 +33,19 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: 'gatsby-source-contentful',
       options: {
-        contentPosts: "content/posts",
-        contentAuthors: "content/authors",
-        basePath: "/",
-        authorsPage: true,
-        sources: {
-          local: true,
-          // contentful: true,
-        },
+        spaceId: "ixxuvref3t1f",
+        accessToken: "FtFRlDQWT6FroV_B4rvbD6truwAwbklwO9CcaX4aVdI",
       },
+    },
+    {
+     resolve: '@narative/gatsby-theme-novela',
+     options: {
+       sources: {
+         contentful: true,
+       },
+     },
     },
     {
       resolve: `gatsby-plugin-manifest`,
