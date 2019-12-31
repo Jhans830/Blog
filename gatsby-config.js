@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `InvokeCreateDotDev`,
+    title: `InvokeCreate - A Salesforce Marketing Cloud Blog`,
     name: `InvokeCreate`,
     siteUrl: `https://invokecreate.dev`,
     description: `A blog highlighting all things Salesforce Marketing Cloud`,
