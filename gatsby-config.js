@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Jason Hanshaw`,
+    name: `Jason Hanshaw`,
+    siteUrl: `https://jasonhanshaw.com`,
     description: `A blog highlighting all things Salesforce Marketing Cloud`,
     hero: {
       heading: '',
