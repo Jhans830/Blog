@@ -1,7 +1,6 @@
-- name: Dennis Brotzky
+- name: InvokeCreate
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
+    Hi, I'm Jason and this is a chronicle of my adventures navigating the world of Salesforce Marketing Cloud development.
   avatar: ./avatars/dennis-brotzky.jpg
   featured: true
   social:

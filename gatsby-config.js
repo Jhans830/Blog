@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Jason Hanshaw`,
-    name: `Jason Hanshaw`,
-    siteUrl: `https://jasonhanshaw.com`,
+    title: `InvokeCreateDotDev`,
+    name: `InvokeCreate`,
+    siteUrl: `https://invokecreate.dev`,
     description: `A blog highlighting all things Salesforce Marketing Cloud`,
     hero: {
       heading: '',
@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `InvokeCreateDotDev`,
+        short_name: `InvokeCreate`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
