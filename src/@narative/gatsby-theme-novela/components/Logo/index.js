@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
 
-import mediaqueries from "@styles/media";
-
-import { Icon } from '@types';
-
-const Logo: Icon = ({ fill = "white" }) => {
+/**
+ * Paste in your SVG logo and return it from this component.
+ * Make sure you have a height set for your logo.
+ * It is recommended to keep the height within 25-35px.
+ */
+export default function Logo() {
   return (
     <LogoContainer>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 54" width="297" height="54" className="Logo__Desktop">
@@ -23,21 +23,3 @@ const Logo: Icon = ({ fill = "white" }) => {
     </LogoContainer>
   );
 };
-
-export default Logo;
-
-const LogoContainer = styled.div`
-  .Logo__Mobile {
-    display: none;
-  }
-
-  ${mediaqueries.tablet`
-    .Logo__Desktop {
-      display: none;
-    }
-    
-    .Logo__Mobile{
-      display: block;
-    }
-  `}
-`;
