@@ -11,7 +11,7 @@ module.exports = {
     social: [
       {
         name: `github`,
-        url: `https://github.com/Jhans830/`,
+        url: `https://github.com/invokecreate/`,
       },
       {
         name: `linkedin`,
