@@ -48,6 +48,7 @@ const LogoContainer = styled.div`
     
     .Logo__Mobile{
       display: block;
+      max-width: 100%
     }
   `}
 `;
