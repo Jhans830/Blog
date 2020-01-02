@@ -6,7 +6,7 @@ import mediaqueries from "@styles/media";
 const Logo = ({ fill = "white" }) => {
   return (
     <LogoContainer>
-<svg xmlns="http://www.w3.org/2000/svg" className="Logo__Desktop" id="Layer_1" data-name="Layer 1" width="240.002" height="50.25" viewBox="0 0 105.002 24.25">
+<svg xmlns="http://www.w3.org/2000/svg" className="Logo__Desktop" id="Layer_1" data-name="Layer 1" width="240.002" height="50.25" viewBox="0 0 115.002 24.25">
   <path d="M28.4336,9.1162a.6147.6147,0,0,1,.6235-.6.6047.6047,0,0,1,.6236.5874.6236.6236,0,0,1-1.2471.0122Zm.1919,1.9907h.8516v6.3086h-.8516Z" transform="translate(-0.875 -0.875)" fill="#7a8085" />
   <path d="M37.6582,13.7573v3.6582h-.8516V13.8413a1.7615,1.7615,0,0,0-1.895-2.0146,2.0681,2.0681,0,0,0-2.2065,2.2788v3.31h-.8516V11.1069h.8154v1.1636a2.6508,2.6508,0,0,1,2.3985-1.2114A2.4148,2.4148,0,0,1,37.6582,13.7573Z" transform="translate(-0.875 -0.875)" fill="#7a8085" />
   <path d="M45.1582,11.1069l-2.8066,6.3086h-.875l-2.7945-6.3086h.8872L41.9316,16.48l2.3868-5.3731Z" transform="translate(-0.875 -0.875)" fill="#7a8085" />
