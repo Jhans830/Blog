@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://invokecreate.dev`,
     description: `A blog highlighting all things Salesforce Marketing Cloud`,
     hero: {
-      heading: '',
+      heading: 'A Salesforce Marketing Cloud Blog',
       maxWidth: 652,
     },
     social: [
