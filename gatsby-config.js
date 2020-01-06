@@ -28,6 +28,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-155466259-1",
+      },
+    },
+    {
      resolve: '@narative/gatsby-theme-novela',
      options: {
        sources: {
