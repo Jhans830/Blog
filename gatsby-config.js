@@ -17,6 +17,10 @@ module.exports = {
         name: `linkedin`,
         url: `https://www.linkedin.com/in/jason-hanshaw-developer/`,
       },
+      {
+        name: `stackoverflow`,
+        url: `https://salesforce.stackexchange.com/users/50722/jason-hanshaw`
+      },
     ],
   },
   plugins: [
