@@ -51,4 +51,10 @@ const LogoContainer = styled.div`
       max-width: 100%
     }
   `}
+  .css-1goftmb {
+  margin-bottom: 10px !important;
+  }
+  .css-1iy0gab {
+    display: block !important;
+  }
 `;
