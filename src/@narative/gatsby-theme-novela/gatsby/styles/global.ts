@@ -141,6 +141,6 @@ export const globalStyles = css`
 	display: block;
   }
   .css-1goftmb {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
   }
 `;
