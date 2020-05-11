@@ -140,7 +140,7 @@ export const globalStyles = css`
   p {
 	display: block !important;
   }
-  h2 {
+  h2, h3 {
 	margin-bottom: 10px !important;
   }
 `;
