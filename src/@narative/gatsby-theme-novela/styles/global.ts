@@ -137,10 +137,10 @@ export const globalStyles = css`
   img.Image__Zoom ~ div {
     background: transparent !important;
   }
-  .css-1iy0gab {
-	display: block;
+  p {
+	display: block !important;
   }
-  .css-1goftmb {
-	margin-bottom: 10px;
+  h2 {
+	margin-bottom: 10px !important;
   }
 `;
